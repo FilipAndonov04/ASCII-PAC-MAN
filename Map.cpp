@@ -182,7 +182,8 @@ bool hasMapCage(const char map[][MAP_MAX_SIZE], int xSize, int ySize)
 		for (int j = 0; j < ySize - 1; j++)
 		{
 			if (isGhost(map[i][j]))
-				return hasUpwardsMapCage(map, xSize, ySize, i, j) || hasDownwardsMapCage(map, xSize, ySize, i + 1, j + 1);
+				return hasUpwardsMapCage(map, xSize, ySize, i, j) || 
+				       hasDownwardsMapCage(map, xSize, ySize, i + 1, j + 1);
 		}
 	}
 	return false;
@@ -193,7 +194,8 @@ bool hasUpwardsMapCage(const char map[][MAP_MAX_SIZE], int xSize, int ySize, int
 	if (!isMoovableForGhost(map[x - 1][y]))
 		return false;
 
-	if (!isValidCoordinate(x + 2, xSize) || !isValidCoordinate(y - 2, ySize) || !isValidCoordinate(y + 2, ySize))
+	if (!isValidCoordinate(x + 2, xSize) || !isValidCoordinate(y - 2, ySize) || 
+	    !isValidCoordinate(y + 2, ySize))
 		return false;
 
 	for (int i = y - 2; i <= y + 2; i++)
