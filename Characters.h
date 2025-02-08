@@ -1,4 +1,3 @@
-#pragma once
 /**
 * 
 * Solution to course project #5
@@ -13,6 +12,8 @@
 * Game symbols
 * 
 */
+
+#pragma once
 
 constexpr char PAC_MAN_SYMBOL = 'Y';
 constexpr char BLINKY_SYMBOL = 'B';

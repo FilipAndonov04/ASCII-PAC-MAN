@@ -1,3 +1,17 @@
+/**
+*
+* Solution to course project #5
+* Introduction to programming course
+* Faculty of Mathematics and Informatics of Sofia University
+* Winter semester 2024/2025
+*
+* @author Filip Aleksandrov Andonov
+* @idnumber 2MI0600320
+* @compiler VC
+*
+* Implementation of HandleConsole.h
+*
+*/
 #include "HandleConsole.h"
 #include <iostream>
 #include <windows.h>

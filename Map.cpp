@@ -1,3 +1,17 @@
+/**
+*
+* Solution to course project #5
+* Introduction to programming course
+* Faculty of Mathematics and Informatics of Sofia University
+* Winter semester 2024/2025
+*
+* @author Filip Aleksandrov Andonov
+* @idnumber 2MI0600320
+* @compiler VC
+*
+* Implementation of Map.h
+*
+*/
 #include "Map.h"
 #include <iostream>
 
@@ -183,7 +197,7 @@ bool hasMapCage(const char map[][MAP_MAX_SIZE], int xSize, int ySize)
 		{
 			if (isGhost(map[i][j]))
 				return hasUpwardsMapCage(map, xSize, ySize, i, j) || 
-				       hasDownwardsMapCage(map, xSize, ySize, i + 1, j + 1);
+					   hasDownwardsMapCage(map, xSize, ySize, i + 1, j + 1);
 		}
 	}
 	return false;
@@ -195,7 +209,7 @@ bool hasUpwardsMapCage(const char map[][MAP_MAX_SIZE], int xSize, int ySize, int
 		return false;
 
 	if (!isValidCoordinate(x + 2, xSize) || !isValidCoordinate(y - 2, ySize) || 
-	    !isValidCoordinate(y + 2, ySize))
+		!isValidCoordinate(y + 2, ySize))
 		return false;
 
 	for (int i = y - 2; i <= y + 2; i++)

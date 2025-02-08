@@ -1,4 +1,3 @@
-#pragma once
 /**
 *
 * Solution to course project #5
@@ -14,6 +13,7 @@
 *
 */
 
+#pragma once
 #include "Map.h"
 #include "Entity.h"
 

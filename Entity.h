@@ -1,4 +1,3 @@
-#pragma once
 /**
 *
 * Solution to course project #5
@@ -13,6 +12,8 @@
 * Entity and it's direction and position and basic their functions
 *
 */
+
+#pragma once
 
 constexpr int DIRECTIONS_COUNT = 4;
 
