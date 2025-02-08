@@ -3,11 +3,11 @@ ASCII PAC-MAN
 This is a Pac-Man clone.
 C++ console game.
 
-It has a hero(Pac-Man) and ghosts that are chasing it. Pac-Man's mission is to eat all the food. 
-There is special food that once eaten allowes Pac-Man to fight back.
+Ohh no... Pac-Man is trapped in a dungeon. Pac-Man's needs to eat all the food in the dungeon to escape. But there are scary ghosts that chase him.
+The only way to fight back against them is to eat the forbiden fruit.
 
 Controls:
-Move up - W
-Move left - A
-Move down - S
+Move up - W,
+Move left - A,
+Move down - S,
 Move right - D
