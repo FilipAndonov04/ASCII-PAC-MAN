@@ -255,7 +255,7 @@ void movePacMan(Game& game, Entity** ghosts, const Position* respawnPositions)
 
 void countdownBeforeStart(int seconds)
 {
-	constexpr int SECOND_IN_MILLISECONDS= 1000;
+	constexpr int SECOND_IN_MILLISECONDS = 1000;
 	while (seconds > 0)
 	{
 		resetCursorPosition();
