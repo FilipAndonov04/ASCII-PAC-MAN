@@ -1,4 +1,4 @@
-ASCII PAC-MAN
+# ASCII PAC-MAN
 
 This is a Pac-Man clone.
 C++ console game.
