@@ -17,7 +17,7 @@
 #include <cstdlib>
 #include <ctime>
 
-constexpr char FILE_NAME[] = RESOURCES_PATH "map.txt";
+constexpr char FILE_NAME[] = "resources/map.txt";
 
 int main()
 {
